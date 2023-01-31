@@ -1,9 +1,8 @@
-import PostSearch from './modules/PostsSearch/PostsSearch';
+import PostSearch from './modules/PostsSearch';
 
 function App() {
   return (
     <div>
-      React homework template
       <PostSearch />
     </div>
   );

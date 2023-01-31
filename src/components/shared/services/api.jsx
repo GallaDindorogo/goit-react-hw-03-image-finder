@@ -10,7 +10,7 @@ const instance = axios.create({
   },
 });
 
-export const searchImg = async (q, page = 1) => {
+const fetchImg = async (q, page = 1) => {
   const { data } = await instance.get('', {
     params: {
       q,
@@ -19,3 +19,5 @@ export const searchImg = async (q, page = 1) => {
   });
   return data;
 };
+
+export default fetchImg;

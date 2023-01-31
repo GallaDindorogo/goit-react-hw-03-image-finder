@@ -18,8 +18,6 @@ class Searchbar extends Component {
     const { onSubmit } = this.props;
     onSubmit({ ...this.state });
     this.reset();
-    console.log(this.state);
-    console.log(onSubmit);
   };
 
   reset() {
